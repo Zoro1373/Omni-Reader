@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omniscient Reader point of view</title>
+    <link rel="stylesheet" href="orv.css">
+    
+</head>
+<body>
+    
+    <div class="manhwa-container">
+        
+        <img src="manhwa/orv.jpeg" class="cover">
+        <div class=" info">
+            <h1>Omniscient Reader point of view</h1>
+
+            <p class="genre">
+                Action, Fantasy, Psychological, Metafiction, and Apocalyptic.
+            </p>
+            <p class="description">
+                A solo reader becomes the only person who knows how the world ends when his favorite web novel suddenly becomes reality.
+
+            </p>
+            <button class="read-btn">Continue Reading</button>
+        </div>
+    </div>
+    <h2 class="chapters">Chapters</h2>
+    <div class="chapter-list">
+        <a href="solo/[MHO] [CH-00] Solo Leveling @Biblio_Ocean.pdf">Chapter 0</a>
+        <a href="solo/[MHO] [CH-01] Solo Leveling @Biblio_Ocean.pdf">Chapter 1</a>
+        <a href="solo/[MHO] [CH-02] Solo Leveling @Biblio_Ocean.pdf">Chapter 2</a>
+        <a href="solo/[MHO] [CH-03] Solo Leveling @Biblio_Ocean.pdf">Chapter 3</a>
+
+    </div>
+    
+        <script>
+
+let last = localStorage.getItem("lastChapter");
+
+if(last){
+document.querySelector(".read-btn").onclick = function(){
+window.location.href = "reader.html?chapter=" + last;
+}
+}
+
+</script>
+
+
+</body>
+</html>
