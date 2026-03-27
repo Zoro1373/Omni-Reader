@@ -20,7 +20,10 @@ A web-based platform for reading manga, manhwa, manhua, and novels with a modern
 ---
 
 ## 📸 Screenshots
-(Add images here)
+
+![Home Page](loding.png)
+![Home Page](home.png)
+![Home Page](intro(1).png)
 
 ---
 
