@@ -29,7 +29,7 @@ A web-based platform for reading manga, manhwa, manhua, and novels with a modern
 
 ## ▶️ How to Run
 1. Download or clone this repo
-2. Open `home.html` in browser
+2. Open `loding.html` in browser
 
 ---
 
